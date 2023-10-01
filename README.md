@@ -4,10 +4,11 @@ Mencari Topik Penelitian
 Nama : Faris Syaifulloh
 NIM :20081010078
 
-**Topik Penelitian**
+**__Topik Penelitian__**
 
 Topik : Penggunaan Internet of Things (IoT) dalam Sistem Pemantauan Lingkungan
-		Penelitian ini membahas penggunaan Internet of Things (IoT) dalam sistem pemantauan lingkungan untuk memahami, melindungi, dan mengelola lingkungan alam kita. IoT telah mengubah cara kita mengumpulkan data lingkungan dengan mengintegrasikan sensor-sensor canggih ke dalam infrastruktur kota dan alam. Penelitian ini mencakup implementasi sensor-sensor IoT dalam pengukuran kualitas udara, suhu, kelembaban, tingkat polusi air, dan faktor-faktor lingkungan lainnya. Data yang dikumpulkan secara real-time dari sensor-sensor ini disalurkan melalui jaringan IoT dan dianalisis untuk memberikan wawasan yang mendalam tentang perubahan lingkungan dan dampaknya.
+		
+  Penelitian ini membahas penggunaan Internet of Things (IoT) dalam sistem pemantauan lingkungan untuk memahami, melindungi, dan mengelola lingkungan alam kita. IoT telah mengubah cara kita mengumpulkan data lingkungan dengan mengintegrasikan sensor-sensor canggih ke dalam infrastruktur kota dan alam. Penelitian ini mencakup implementasi sensor-sensor IoT dalam pengukuran kualitas udara, suhu, kelembaban, tingkat polusi air, dan faktor-faktor lingkungan lainnya. Data yang dikumpulkan secara real-time dari sensor-sensor ini disalurkan melalui jaringan IoT dan dianalisis untuk memberikan wawasan yang mendalam tentang perubahan lingkungan dan dampaknya.
 		Identifikasi persoalan praktis yang perlu diselesaikan melalui penelitian dalam penggunaan Internet of Things (IoT) dalam sistem pemantauan lingkungan adalah sebagai berikut:
 1.	Kualitas Udara dan Pencemaran udara menjadi isu serius di banyak kota di seluruh dunia. Penelitian perlu mengatasi bagaimana IoT dapat digunakan untuk mengumpulkan data kualitas udara dengan akurat dan real-time, serta bagaimana data ini dapat digunakan untuk memberikan peringatan dini dan tindakan mitigasi yang efektif untuk mengatasi pencemaran udara.
 2.	Manajemen sampah yang efisien dan pengurangan limbah menjadi kunci untuk menjaga lingkungan yang bersih dan berkelanjutan. Penelitian perlu fokus pada penggunaan IoT dalam mengelola dan mendaur ulang sampah dengan lebih efektif, termasuk pemantauan level sampah, pengelolaan rute pengumpulan sampah, dan manajemen fasilitas pengolahan limbah.
