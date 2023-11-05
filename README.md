@@ -25,4 +25,17 @@ Tinjauan kepustakaan merupakan langkah penting dalam penelitian tentang pengguna
 1.	Teori IoT dan Sensor Networks: Menjelaskan prinsip-prinsip dasar IoT, seperti konsep konektivitas, pengumpulan data sensor, dan jaringan sensor nirkabel. Teori ini juga membahas berbagai jenis sensor yang digunakan dalam pemantauan lingkungan.
 2.	Teori Pemrosesan Data Real-Time: IoT seringkali melibatkan pengumpulan data real-time dari sensor. Teori ini mencakup teknik-teknik pemrosesan data real-time, seperti pengolahan aliran data (stream processing) dan analisis cepat.
 
+**__Metode Penelitian Menggunakan Arduino IDE__**
+
+Metode Menggunakan Arduino IDE adalah pendekatan untuk mengembangkan proyek dengan mikrokontroler seperti ESP32 dengan menggunakan lingkungan pengembangan terpadu (IDE) yang disebut Arduino IDE. Arduino IDE adalah perangkat lunak yang dirancang untuk memudahkan pemrograman mikrokontroler dengan bahasa pemrograman Arduino yang relatif mudah dipahami.
+
+1. Persiapan Perangkat dan Sensor: Siapkan ESP32 dan sensor-sensor lingkungan seperti sensor suhu, kelembaban, atau kualitas udara yang akan digunakan untuk pemantauan. Hubungkan sensor-sensor tersebut ke pin GPIO pada ESP32.
+
+2. Instalasi ESP32 Board Support: Buka Arduino IDE dan instal pustaka (board support package) untuk ESP32. Anda dapat melakukannya melalui "Pengaturan (Preferences)" dan menambahkan URL pustaka ESP32 ke "Pengaturan Tambahan (Additional Boards Manager URLs)".
+
+3. Pemrograman ESP32: Tulis kode Arduino yang akan mengumpulkan data dari sensor-sensor lingkungan dan mengirimnya ke server atau platform IoT yang Anda tuju. Pastikan Anda menggunakan WiFi atau protokol komunikasi yang sesuai.
+
+4. Unggah Kode ke ESP32: Hubungkan ESP32 ke komputer Anda melalui kabel USB dan unggah kode yang telah Anda tulis ke dalam mikrokontroler menggunakan Arduino IDE.
+
+5. Koneksi ke Platform IoT: Anda dapat menghubungkan ESP32 ke platform IoT seperti ThingSpeak, Adafruit IO, atau platform kustom Anda. Platform ini akan memungkinkan Anda untuk menerima, menyimpan, dan memvisualisasikan data lingkungan yang dikumpulkan oleh ESP32.
 
