@@ -1,41 +1,39 @@
-# Tugas Riset 1 
-Mencari Topik Penelitian
+# Final Project Riset  
 
 Nama : Faris Syaifulloh
 NIM :20081010078
 
-**__Topik Penelitian__**
+**__SISTEM MONITORING KAPASITAS SAMPAH BERBASIS IOT UNTUK MENGATASI RISIKO BANJIR DI SUNGAI TANGKIS WAGE, KABUPATEN SIDOARJO__**
 
-Topik : Penggunaan Internet of Things (IoT) dalam Sistem Pemantauan Lingkungan
-		
-  Penelitian ini membahas penggunaan Internet of Things (IoT) dalam sistem pemantauan lingkungan untuk memahami, melindungi, dan mengelola lingkungan alam kita. IoT telah mengubah cara kita mengumpulkan data lingkungan dengan mengintegrasikan sensor-sensor canggih ke dalam infrastruktur kota dan alam. Penelitian ini mencakup implementasi sensor-sensor IoT dalam pengukuran kualitas udara, suhu, kelembaban, tingkat polusi air, dan faktor-faktor lingkungan lainnya. Data yang dikumpulkan secara real-time dari sensor-sensor ini disalurkan melalui jaringan IoT dan dianalisis untuk memberikan wawasan yang mendalam tentang perubahan lingkungan dan dampaknya.
-		Identifikasi persoalan praktis yang perlu diselesaikan melalui penelitian dalam penggunaan Internet of Things (IoT) dalam sistem pemantauan lingkungan adalah sebagai berikut:
-1.	Kualitas Udara dan Pencemaran udara menjadi isu serius di banyak kota di seluruh dunia. Penelitian perlu mengatasi bagaimana IoT dapat digunakan untuk mengumpulkan data kualitas udara dengan akurat dan real-time, serta bagaimana data ini dapat digunakan untuk memberikan peringatan dini dan tindakan mitigasi yang efektif untuk mengatasi pencemaran udara.
-2.	Manajemen sampah yang efisien dan pengurangan limbah menjadi kunci untuk menjaga lingkungan yang bersih dan berkelanjutan. Penelitian perlu fokus pada penggunaan IoT dalam mengelola dan mendaur ulang sampah dengan lebih efektif, termasuk pemantauan level sampah, pengelolaan rute pengumpulan sampah, dan manajemen fasilitas pengolahan limbah.
-3.	Integrasi Data dan Interoperabilitas. Dengan banyaknya sensor dan perangkat yang berbeda dalam ekosistem IoT, tantangan utama adalah bagaimana mengintegrasikan data dari berbagai sumber dan memastikan interoperabilitas yang mulus.
+Penelitian ini bertujuan mengatasi risiko banjir di Sungai Tangkis Wage, Kabupaten Sidoarjo, dengan mengimplementasikan Sistem Monitoring Kapasitas Sampah berbasis Internet of Things (IoT). Melalui teknologi ini, penelitian fokus pada pemantauan real-time kapasitas sampah di sungai untuk mengoptimalkan manajemen sampah, dengan harapan dapat mengurangi potensi banjir yang disebabkan oleh penumpukan sampah. Solusi ini diarahkan untuk meningkatkan efisiensi pengelolaan sampah dan memberikan respons yang lebih cepat terhadap permasalahan lingkungan yang dapat menyebabkan risiko banjir di daerah tersebut.
 
-Berdasarkan persoalan praktis yang telah diidentifikasi dalam penggunaan Internet of Things (IoT) dalam sistem pemantauan lingkungan, berikut adalah beberapa pertanyaan penelitian (research questions) yang dapat diajukan: 
-1.	Bagaimana IoT dapat digunakan untuk memantau dan mengukur kualitas udara dengan akurat dan real-time di lingkungan perkotaan?
-2.	Bagaimana sistem pemantauan IoT dapat memberikan peringatan dini terkait polusi udara yang dapat membahayakan kesehatan manusia?
-3.	Bagaimana IoT dapat digunakan untuk pemantauan iklim yang lebih efektif dan memberikan informasi lebih awal tentang potensi bencana alam seperti banjir atau kebakaran hutan?
-4.	Bagaimana IoT dapat digunakan dalam manajemen sampah untuk mengoptimalkan rute pengumpulan sampah dan mengurangi dampak lingkungan?
-5.	Bagaimana teknologi IoT dapat membantu dalam pengelolaan sumber daya air yang lebih efisien dan melindungi daerah-daerah yang mengalami kekeringan?
+**__Metode__**
 
-Tinjauan kepustakaan merupakan langkah penting dalam penelitian tentang penggunaan Internet of Things (IoT) dalam sistem pemantauan lingkungan. Berikut adalah beberapa teori dan kerangka kerja yang memiliki keterkaitan dengan topik ini:
-1.	Teori IoT dan Sensor Networks: Menjelaskan prinsip-prinsip dasar IoT, seperti konsep konektivitas, pengumpulan data sensor, dan jaringan sensor nirkabel. Teori ini juga membahas berbagai jenis sensor yang digunakan dalam pemantauan lingkungan.
-2.	Teori Pemrosesan Data Real-Time: IoT seringkali melibatkan pengumpulan data real-time dari sensor. Teori ini mencakup teknik-teknik pemrosesan data real-time, seperti pengolahan aliran data (stream processing) dan analisis cepat.
+Pengembangan sistem dilakukan dengan beberapa langkah. Pertama, digunakan sensor ultrasonik HC-SR04 untuk mendeteksi tingkat atau ketinggian sampah dalam tempat sampah. Kedua, proses pengumpulan data dari sensor dimulai dari NodeMCU sebagai mikrokontroler, dan data dikirimkan melalui jaringan Wi-Fi. NodeMCU ini ditenagai oleh powerbank yang mendapat pasokan daya dari sistem fotovoltaik atau secara mandiri mengisi daya dari sumber cahaya matahari jika diperlukan. Langkah ketiga melibatkan proses pengumpulan data sensor secara online dan real-time, menggunakan protokol MQTT broker sebagai bagian dari Internet of Things (IoT). Keempat, sebuah aplikasi berbasis Android dikembangkan dan diinstal pada smartphone untuk menampilkan data tingkat sampah dan memberikan notifikasi jika tempat sampah sudah penuh.
 
-**__Metode Penelitian Menggunakan Arduino IDE__**
+**__Refrensi__**
 
-Metode Menggunakan Arduino IDE adalah pendekatan untuk mengembangkan proyek dengan mikrokontroler seperti ESP32 dengan menggunakan lingkungan pengembangan terpadu (IDE) yang disebut Arduino IDE. Arduino IDE adalah perangkat lunak yang dirancang untuk memudahkan pemrograman mikrokontroler dengan bahasa pemrograman Arduino yang relatif mudah dipahami.
+1. Budioko, T. (2016). SistemMonitoringSuhuJarak Jauh Berbasis Internet Of ThingsMenggunakan Protokol Mqtt. In Seminar
+2. Aritonang, P. L. E., Bayu, E. C., K, S. D., &Prasetyo, J. (2017). Rancang BangunAlat Pemilah Sampah Cerdas Otomatis. InProc. SNITT Poltekba (pp. 375–381). POliteknikNegeri Balikpapan.
+3. Ermawati, Y. (2012). Sistempendeteksi kapasitas tempat smpah secara otomatispada kompleks perumahan. Teknika, 2(3), 1–7.
 
-1. Persiapan Perangkat dan Sensor: Siapkan ESP32 dan sensor-sensor lingkungan seperti sensor suhu, kelembaban, atau kualitas udara yang akan digunakan untuk pemantauan. Hubungkan sensor-sensor tersebut ke pin GPIO pada ESP32.
+**__Dataset__**
 
-2. Instalasi ESP32 Board Support: Buka Arduino IDE dan instal pustaka (board support package) untuk ESP32. Anda dapat melakukannya melalui "Pengaturan (Preferences)" dan menambahkan URL pustaka ESP32 ke "Pengaturan Tambahan (Additional Boards Manager URLs)".
+Data yang saya gunakan adalah data kapasitas sampah yang ada di sekitar lingkungan Sungai Tangkis untuk dilakukan tes
 
-3. Pemrograman ESP32: Tulis kode Arduino yang akan mengumpulkan data dari sensor-sensor lingkungan dan mengirimnya ke server atau platform IoT yang Anda tuju. Pastikan Anda menggunakan WiFi atau protokol komunikasi yang sesuai.
+**__Analisis Pengujian__**
+1. Pengujian Fungsionalitas hardware
+   a. Integrasi NodeMCU dengan Sensor HC-SR04
+   b. NodeMCU dapat terkoneksi dengan jaringan interne
+   c. Sensor dapat mendeteksi ketinggian sampah
+   d. NodeMCU dapat mengirimkan data dari sensor ke MQTT broker
+3. Pengujian fungsionalitas software
+   a. MQTT broker dapat menerima data yang dipublish oleh NodeMCU
+   b. MQTT broker dapat meneruskan data yang didapat sampai aplikasi
+   c. Aplikasi dapat menerima data yang diteruskan oleh MQTT broker
+   d. Aplikasi dapat memberi notifikasi saat batas ketinggian sudah mencapai batas
 
-4. Unggah Kode ke ESP32: Hubungkan ESP32 ke komputer Anda melalui kabel USB dan unggah kode yang telah Anda tulis ke dalam mikrokontroler menggunakan Arduino IDE.
+**__Draft Paper Publikasi__**
 
-5. Koneksi ke Platform IoT: Anda dapat menghubungkan ESP32 ke platform IoT seperti ThingSpeak, Adafruit IO, atau platform kustom Anda. Platform ini akan memungkinkan Anda untuk menerima, menyimpan, dan memvisualisasikan data lingkungan yang dikumpulkan oleh ESP32.
+![image](https://github.com/faris-studio/TugasRiset/assets/103984227/859ee4e8-3ada-4147-be25-30c482e14cad)
 
